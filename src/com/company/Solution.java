@@ -56,4 +56,10 @@ public class Solution {
         return left;
     }
 
+    private static void swap(int[] array, int left, int right){
+        int tmp = array[left];
+        array[left] = array[right];
+        array[right] = tmp;
+    }
+
 }
